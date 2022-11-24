@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .logo{
   width: 70px;
   object-fit: contain;
@@ -43,4 +44,5 @@ nav{
     list-style: none;
   }
 }
+
 </style>
