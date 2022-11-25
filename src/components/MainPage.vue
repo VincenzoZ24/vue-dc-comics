@@ -1,6 +1,7 @@
 <!-- eslint-disable max-len -->
 <template>
   <main>
+    <section class="first_section_main"></section>
     <section class="content">
       <div class="container_cards">
         <CardPage  class="card_page" v-for="card in arrCard" :key="card.series" :img="card.thumb" :title="card.series"/>
@@ -118,6 +119,11 @@ export default {
 </script>
 
 <style lang="scss">
+.first_section_main{
+  height: 20rem;
+  background-image: url('@/img/jumbotron.jpg');
+  background-size: cover;
+}
 .container_cards{
   max-width: 1200px;
   margin: auto;
